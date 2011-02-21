@@ -1,0 +1,3 @@
+#!/bin/csh -f
+
+exec ruby ../lib/main.rb ../../iss/cxx/miscpu/opcode.hxx ${*}

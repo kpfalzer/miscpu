@@ -1,0 +1,16 @@
+GPLCVER_2.12a of 05/16/07 (Linux-elf).
+Copyright (c) 1991-2007 Pragmatic C Software Corp.
+  All Rights reserved.  Licensed under the GNU General Public License (GPL).
+  See the 'COPYING' file for details.  NO WARRANTY provided.
+Today is Mon Jul 12 14:22:42 2010.
+Compiling source file "miscpu.v"
+Highest level modules:
+tb
+
+                   0  ovld=0 addr=         0 we=0 dout=         x : ivld=0 din=         x ir=         x
+                   1  ovld=1 addr=         0 we=0 dout=         x : ivld=0 din=      1234 ir=         x
+                   2  ovld=1 addr=         0 we=0 dout=         x : ivld=1 din=      1234 ir=         x
+                   3  ovld=0 addr=         0 we=0 dout=         x : ivld=1 din=      1234 ir=      1234
+                   4  ovld=0 addr=         0 we=0 dout=         x : ivld=0 din=      1234 ir=      1234
+Halted at location **miscpu.v(66) time 9 from call to $finish.
+  There were 0 error(s), 0 warning(s), and 16 inform(s).
